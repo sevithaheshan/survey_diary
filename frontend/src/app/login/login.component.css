@@ -1,0 +1,42 @@
+.card{
+    margin: 5px;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: hsla(205, 46%, 40%, 1);
+    background: linear-gradient(90deg, hsla(205, 46%, 50%, 1) 0%,  hsla(220, 29%, 36%, 1) 100%);
+}
+.form-text{
+    color: rgb(196, 196, 196);
+}
+.form-label,h1,h6{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.background{
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   border-radius: 8px; 
+   padding: 8px;
+   border: 1px solid rgb(0, 0, 0);
+   text-align:center;
+   background-image: url(ts.jpg);
+   width: 90%;
+   height: 90%;
+
+}
+
+.welcom1{
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    
+}
+.welcom2{
+    color: rgb(230, 230, 230);
+}

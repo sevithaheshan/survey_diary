@@ -1,0 +1,37 @@
+<nav class="navbar navbar-dark bg-dark ">
+    <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">SURVEYORS' DIARY</span>
+        <span class="navbar-brand mb-2 h4">
+            <button routerLink="/head" class="btn btn-outline-info">Home</button>
+        </span>
+    </div>
+</nav>
+<div class="container mt-4 mb-4">
+    <h3>UPDATE PROJECT</h3>
+    <table class="table  table-striped mt-4 mb-3">
+        <thead>
+            <tr>
+                <th scope="col">Task</th>
+                <th scope="col">Date</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Remove</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let projectList of projectLists">
+                
+                <td>{{projectList.Name}}</td>
+                <td>{{projectList.date|date:"MM/dd/YYYY"}}</td>
+
+                <td>
+                    <button type="submit" class="btn btn-info">Edit</button>
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</div>
