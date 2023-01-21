@@ -31,7 +31,7 @@ import { AddnewtaskComponent } from './addnewtask/addnewtask.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AuthModule
+    AuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

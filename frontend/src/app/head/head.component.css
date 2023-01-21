@@ -45,24 +45,24 @@ h5{
 /*second dashbord*/
 
 .progress{
-    width: 500px;
+    width: 100%;
   
 }
 .progressGroup{
-    width: 530px;
-    height: 300px;
+    width: 60%;
+    height: 90%;
     border-radius: 6px; 
     padding: 8px;
     border: 1px solid rgb(77, 116, 245);
-    float: right;
-    margin-top: 10px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-top: 10px;
+  
 
 }
 
 .dashbord{
-    width: 76%;
+    display: flex;
+    width: 75%;
     height: 100%;
     border-radius: 6px; 
     padding: 8px;
@@ -88,27 +88,8 @@ h3{
     text-align: center;
     font-family: Helvetica;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
     font-weight: 600px;
 }
 
-/*demo charts*/
-
-.demo-charts {
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .demo-chart:nth-child(1) {
-    color: #ACEC00;
-  }
-  .demo-chart:nth-child(2) {
-    color: #00BBD6;
-  }
-  .demo-chart:nth-child(3) {
-    color: #BA65C9;
-  }
-  .demo-chart:nth-child(4) {
-    color: #EF3C79;
-  }
 
