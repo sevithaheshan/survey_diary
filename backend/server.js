@@ -202,7 +202,6 @@ app.get("/projects", function (req, res, next) {
     }
 });
 
-
 //update project
 
 app.post("/editProject", function (req, res, next) {
